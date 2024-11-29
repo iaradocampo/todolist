@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #9B7EBD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+h1{
+    color: #FFFFFF;
+}
+
+.input-div{
+    margin-top: 10px;
+}
+
+.input{
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    outline: none;
+}
+
+.boton-agregar{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF062E;
+    color: #FFFFFF;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.boton-agregar:hover{
+    opacity: 0.9;
+}
+
+.item{
+    margin: 10px 0;
+}
+
+.item-input{
+    height: 50px;
+    padding: 0px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: none;
+}
+
+.boton-editar{
+    margin: 0px 5px;
+    border: none;
+    background: none;
+    color: #EEEEEE;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+}
+
+.boton-remover{
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF062E;
+    color: #FFFFFF;
+    font-size: 20px;
+}
